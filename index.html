@@ -1,0 +1,30 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+<h1> About this guide </h1>
+
+<p>
+There are tons of books and free online guides out there for Scheme programming, but quite a number of them assume the reader's familiarity with at least one programming language (as well as the underlying concepts of programming). This guide is primarily for those who have no prior background in Computer Science and want to get started with Scheme. Even for experienced programmers, Scheme can be quite challenging since the language itself is under a different paradigm called "functional programming language". It is entirely different from what you would commonly code in languages such as Python or C++. Coding in Scheme can be difficult, painful, and brutal, but it doesn't have to be.
+</p>
+<p>
+
+Through this guide, I hope to deliver a very simplistic introduction to Scheme programming. This guide is, by no means, a complete one. It only provides a brief overview of the concepts in Scheme. I won't dive deep into details since there are many great resources out there that already does that. But most of those books are not starter-friendly and can be daunting. Thus, the aim of this guide is to get you acquainted with Scheme, rather than mastering it. I recommend you use this guide as a stepping stone to other great resources, but not as a replacement (if you plan to master Scheme).
+</p>
+
+<h1>About Scheme Programming Language</h1>
+
+<p>
+Scheme is a functional programming language, unlike the well-known iterative languages such as Python or C++. In Scheme, you are forced to use recursion; so, the understanding of recursion is crucial. Also, Scheme is a minimalistic language, in a way that it mainly uses the basic data structure called "list". Therefore, before jumping right into Scheme, I will give a very general overview of what recursions and lists are.
+</p>
+
+<h1>Exercises</h1>
+
+<!-- reverse, sum, simplify, search for last occurrence,  -->
+{% for ex in site.exercises %}
+    <p>{{ex.description}}</p>
+{% endfor %}
+
