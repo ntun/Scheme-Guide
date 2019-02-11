@@ -23,8 +23,13 @@ Scheme is a functional programming language, unlike the well-known iterative lan
 
 <h1>Exercises</h1>
 
-<!-- reverse, sum, simplify, search for last occurrence,  -->
+<!-- reverse, sum, simplify, search for last occurrence, 3 largest number, bst leftmost minimum balanced subtree, matrix multiplication, numerical integration, transpose -->
+{% assign i = 0 %}
 {% for ex in site.exercises %}
+    {% assign i = i | plus:1 %}
+    <p>{{i}}. {{ex.title}}</p>
     <p>{{ex.description}}</p>
+    ------
+    <br><br>
 {% endfor %}
 

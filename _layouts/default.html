@@ -21,7 +21,9 @@
 
 <style>
     pre {background-color: white; color: black;}
-    code {background-color: #EFF0F1; color: black;}
+    code {background-color: #EFF0F1; color: black; white-space: nowrap;}
+    #banner {width: 100%;}
+
 </style>
 
 <body>
@@ -32,9 +34,8 @@
 </header>
 
 <div id="banner">
-    <span id="logo"></span>
 
-    <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
+    <a href="https://github.com/{{site.repository}}" class="button fork"><strong>View On GitHub</strong></a>
     {% if site.show_downloads %}
     <div class="downloads">
         <span>Downloads:</span>
